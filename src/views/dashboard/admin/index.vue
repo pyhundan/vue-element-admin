@@ -15,17 +15,17 @@
     <el-row :gutter="32">
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
-          <raddar-chart :raddarChartData="raddarChartData"/>
+          <raddar-chart :raddar-chart-data="raddarChartData" />
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
-          <pie-chart :chartData="pieChartData"/>
+          <pie-chart :chart-data="pieChartData" />
         </div>
       </el-col>
       <el-col :xs="24" :sm="24" :lg="8">
         <div class="chart-wrapper">
-          <bar-chart :barChartData="barChartData"/>
+          <bar-chart :bar-chart-data="barChartData" />
         </div>
       </el-col>
     </el-row>
@@ -42,7 +42,7 @@
       </el-col>
     </el-row>
 
-</div></template>
+  </div></template>
 
 <script>
 import GithubCorner from '@/components/GithubCorner'
