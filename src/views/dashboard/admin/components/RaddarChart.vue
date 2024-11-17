@@ -34,6 +34,7 @@ export default {
       chart: null
     }
   },
+  // 监听raddarChartData数据变化
   watch: {
     raddarChartData: {
       immediate: true,

@@ -34,6 +34,7 @@ export default {
       chart: null
     }
   },
+  // 监听barChartData数据变化
   watch: {
     barChartData: {
       immediate: true,

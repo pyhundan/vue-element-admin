@@ -92,6 +92,7 @@ export default {
     TodoList,
     BoxCard
   },
+  // 写死默认数据
   data() {
     return {
       lineChartData: lineChartData.newVisitis,
@@ -130,7 +131,7 @@ export default {
       raddarChartData: {
         data: [
           {
-            value: [5000, 7000, 12000, 11000, 15000, 14000],
+            value: [5000, 8000, 12000, 11000, 15000, 14000],
             name: 'Allocated Budget'
           },
           {
@@ -149,6 +150,7 @@ export default {
     handleSetLineChartData(type) {
       this.lineChartData = lineChartData[type]
     },
+    // 写死点击按钮修改的数据
     handleButtonClick1() {
       this.$message('按钮1 被点击了')
       this.handleSetLineChartData('purchases')

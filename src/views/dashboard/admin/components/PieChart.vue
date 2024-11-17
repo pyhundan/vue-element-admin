@@ -27,6 +27,7 @@ export default {
       required: true
     }
   },
+  // 监听chartData数据变化
   watch: {
     chartData: {
       immediate: true,
